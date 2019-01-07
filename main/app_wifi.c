@@ -105,7 +105,7 @@ void wifi_init_softap()
     snprintf((char*)wifi_config.ap.ssid, 32, "%s", EXAMPLE_ESP_WIFI_AP_SSID);
     wifi_config.ap.ssid_len = strlen((char*)wifi_config.ap.ssid);
     snprintf((char*)wifi_config.ap.password, 64, "%s", EXAMPLE_ESP_WIFI_AP_PASS);
-    wifi_config.ap.max_connection = 1;
+    wifi_config.ap.max_connection = 3;
     wifi_config.ap.authmode = WIFI_AUTH_WPA_WPA2_PSK;
     if (strlen(EXAMPLE_ESP_WIFI_AP_PASS) == 0) {
         wifi_config.ap.authmode = WIFI_AUTH_OPEN;
