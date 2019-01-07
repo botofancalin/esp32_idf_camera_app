@@ -1,1 +1,0 @@
-cmd='C:/Program Files/CMake/bin/cmake.exe;-DSDKCONFIG=D:/ESP32/Camera/esp32_idf_camera_app/sdkconfig;-DIDF_PATH=C:/Espressif/esp-idf;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'
